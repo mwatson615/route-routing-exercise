@@ -1,0 +1,21 @@
+{
+  "name": "route-routing-exercise",
+  "homepage": "https://github.com/mwatson615/route-routing-exercise",
+  "authors": [
+    "Michael Watson <m.watson.tn@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-route": "^1.6.1"
+  }
+}
