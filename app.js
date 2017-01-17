@@ -12,9 +12,13 @@ app.config(function($routeProvider) {
 			controller: 'NatchezCtrl',
 			templateUrl: 'partials/natchez.html'
 		})
-})
+		.otherwise({
+			redirect: '/'
+		});
+});
 
 app.controller('MainCtrl', function($scope) {
+	// $scope.img = `<`
 	$scope.highwayName = 'Blue Ridge Parkway';
 	$scope.highwayDescription = 'One of the prettiest drives in the US, winds through the Blue Ridge Mountains.';
 	// console.log('blueRidge')
