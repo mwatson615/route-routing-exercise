@@ -2,3 +2,7 @@ body {
 	background-color: slategrey;
 	text-align: center;
 }
+
+.main-section {
+	margin-top: 35px;
+}
